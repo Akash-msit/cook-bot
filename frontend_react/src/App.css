@@ -1,0 +1,66 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.chat-interface {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.chat-box {
+  max-height: 400px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-box input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-box button {
+  width: 15%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.input-box button:disabled {
+  background-color: #ccc;
+}
+
+.input-box button:hover {
+  background-color: #45a049;
+}
+
+.user-message {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.bot-message {
+  text-align: left;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,13 @@
+pypdf
+langchain
+langchain_community
+langchain-google-genai
+python-dotenv
+bs4
+langchain-text-splitters
+pydantic
+streamlit
+langchain_chroma
+requests
+flask-cors
+flask
